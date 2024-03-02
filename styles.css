@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+  font-family:'Comfortaa' ;
+  font-size: 50px;
+}
+body{
+  width: 80%;
+}
+
+#game-container {
+    position: relative;
+  }
+  
+  #player, #home {
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+  }
+
+  .oneDiv {
+    margin-top: 200px;
+  }
+
+  .one2Div {
+    margin-top: 250px;
+    right: 0;
+  }
+
+  .one{
+    width: 500px;
+    top: 100px;
+   }
+  
+   .one2{
+    width: 400px;
+    top: 100px;
+   }
+
+
+ .two{
+  width: 400px;
+  top: 100px;
+ }
+
+ .two2{
+  width: 400px;
+  top: 100px;
+ }
+
+  /* #player{
+    top: 100px;
+  } */
+  
+  .two2Div {
+    margin-top: 250px;
+    right: 0;
+  }
+
+
+  .threeDiv {
+    margin-top: 300px;
+  }
+
+  .three2Div {
+    margin-top: 250px;
+    right: 0;
+  }
+
+  .three{
+    width: 500px;
+    top: 100px;
+   }
+  
+   .three2{
+    width: 400px;
+    top: 100px;
+   }
+  
+  #message {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color: #ebc8e3;
+    border: 2px solid #c25da9;
+    display: none;
+    border-radius: 30px;
+  }
+  
+  #player{
+    
+  }
